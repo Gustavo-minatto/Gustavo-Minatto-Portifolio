@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Roboto Mono", monospace;
 }
 
@@ -361,7 +360,6 @@ section {
   align-items: center;
   gap: 2rem;
 
-  /* From https://css.glass */
   background: rgba(39, 39, 39, 0.1);
   backdrop-filter: blur(3.9px);
   -webkit-backdrop-filter: blur(3.9px);
@@ -620,10 +618,7 @@ section#competenciasDesktop {
   section#competenciasDesktop .cards {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* Alteração para 5 colunas */
     gap: 3rem;
-    padding: 0 2.4rem;
-    /* Ajuste de padding conforme necessário */
   }
 
   section#competenciasDesktop .cards .card {
